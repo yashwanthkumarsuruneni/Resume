@@ -1,0 +1,17 @@
+<div style = "height=300px;">
+	
+	 <div uib-carousel active="active" class= "text-carousel" interval="myInterval" no-wrap="noWrapSlides">
+      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+        
+        <div>
+          <img ng-src="{{slide.image}}" style="margin:auto;">
+
+          <div class = "carousel-caption  text-size">{{slide.text}}</div>
+          </div>
+        </div>
+      </div>
+
+
+</div>
+
+ 
