@@ -12,8 +12,16 @@
 .row {
 
 	height: none!important;
+	margin-left: 0px!important;
+	margin-right: 0px!important;
 }
 
+.outline {
+
+	outline: 1px solid grey;
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+}
 @media screen and (min-width: 768px)
 .carousel-caption {
     right: 20%;
@@ -55,4 +63,32 @@ transform-style: preserve-3d;
 
 .carousel-indicators li, .carousel-indicators li.active {
   margin: 0px 7px !important;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    
+
+}
+
+.flex-item {
+	margin:5px;
+  
+}
+.car {
+	
+	border-radius:5px;
+	box-shadow: 10px #ccc;
+	margin-top: 80px;
+}
+.img-rounded{
+
+	border: 1px solid grey;
+}
+
+.carousel-indicators {
+  bottom:100px;
 }
